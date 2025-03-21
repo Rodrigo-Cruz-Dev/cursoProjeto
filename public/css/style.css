@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea,
+select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button, .button-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+
+button:hover, .button-link:hover {
+    background-color: #3e8e41;
+}
+
+
+button, .button-link { /* Adicionado .button-link */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none; /* Removido sublinhado dos links */
+    display: inline-block; /* Alinhamento dos links como botões */
+    border-radius: 10%;
+}
+
+button:hover, .button-link:hover { /* Adicionado .button-link:hover */
+    background-color: #3e8e41;
+}
+
+.delete-button { /* Nova classe para o botão "Excluir" */
+    background-color: #f44336; /* Cor vermelha */
+    font-size: 16px; /* Tamanho da fonte menor */
+    padding: 10px 15px; /* Padding menor */
+    margin-left: 30px;
+    height: 45px;
+    width: 80px;
+    font-family: sans-serif ;
+    border-radius: 10%;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* Cor vermelha mais escura no hover */
+}
+
+.button-link {
+    margin-left: 2px;
+}
+
+.button-link:first-child { /* Adiciona margem à direita apenas ao primeiro link */
+    margin-right: 5px;
+}
+
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #f5c6cb;
+}
